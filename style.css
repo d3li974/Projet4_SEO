@@ -362,7 +362,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -828,7 +828,7 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1040px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -842,7 +842,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1005px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -863,7 +863,7 @@ h4 {
     }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -892,7 +892,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .bg-banniere {
         background-image: url("./img/la-chouette-agence-banniere770w.jpg");
     }
@@ -1034,7 +1034,7 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media screen and(max-width: 400px) {
     .bg-banniere {
         background-image: url("./img/la-chouette-agence-banniere410w.jpg");
     }
@@ -1044,7 +1044,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media screen and(max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
