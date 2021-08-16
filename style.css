@@ -1034,7 +1034,7 @@ h4 {
     }
 }
 
-@media screen and(max-width: 400px) {
+@media screen and (max-width: 400px) {
     .bg-banniere {
         background-image: url("./img/la-chouette-agence-banniere410w.jpg");
     }
@@ -1044,7 +1044,7 @@ h4 {
     }
 }
 
-@media screen and(max-width: 767px) {
+@media screen and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
